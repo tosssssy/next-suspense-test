@@ -5,6 +5,8 @@ import {
 } from "@/features/user/UserCard_Use";
 import { Suspense } from "react";
 
+export const dynamic = "force-dynamic";
+
 export default function Home() {
   const fetchUserPromise = fetchUser("use");
   return (
